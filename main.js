@@ -27,3 +27,11 @@ function makeClear() {
 }
 
 birdDino.addEventListener('click', makeClear);
+
+const dinoRow = document.querySelector('#row');
+
+function makeDinoRowGreen() {
+    dinoRow.style.backgroundColor = 'green';
+}
+
+dinoRow.addEventListener('click', makeDinoRowGreen);
