@@ -5,6 +5,9 @@ spanMess.style.fontSize = '40px';
 const paraMess = document.querySelector('p.mess-with-me');
 paraMess.style.backgroundColor = 'green';
 
+const hideDino = document.querySelector('#hide-me-area');
+hideDino.style.display = 'none';
+
 const dino1 = document.querySelector('#triceratops');
 dino1.style.width = '324px';
 
