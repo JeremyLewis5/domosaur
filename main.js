@@ -13,3 +13,9 @@ function changeToOrange() {
 }
 
 spanMess.addEventListener('click', changeToOrange);
+
+function redBorder() {
+    dino1.style.border = '2px solid red';
+}
+
+dino1.addEventListener('click', redBorder);
