@@ -19,3 +19,11 @@ function redBorder() {
 }
 
 dino1.addEventListener('click', redBorder);
+
+const birdDino = document.querySelector('#feathers');
+
+function makeClear() {
+    birdDino.style.opacity = '0.5';
+}
+
+birdDino.addEventListener('click', makeClear);
