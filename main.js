@@ -1,12 +1,15 @@
-const newSpan = document.querySelector('.mess-with-me');
-newSpan.style.fontSize = '40px';
+const spanMess = document.querySelector('.mess-with-me');
+spanMess.style.fontSize = '40px';
+
+
+const paraMess = document.querySelector('p.mess-with-me');
 newSpan.style.backgroundColor = 'green';
 
 const dino1 = document.querySelector('#triceratops');
 dino1.style.width = '324px';
 
 function changeToOrange() {
-    newSpan.style.color = 'orange'
+    spanMess.style.color = 'orange'
 }
 
-newSpan.addEventListener('click', changeToOrange);
+spanMess.addEventListener('click', changeToOrange);
