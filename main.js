@@ -5,4 +5,8 @@ newSpan.style.backgroundColor = 'green';
 const dino1 = document.querySelector('#triceratops');
 dino1.style.width = '324px';
 
+function changeToOrange() {
+    newSpan.style.color = 'orange'
+}
 
+newSpan.addEventListener('click', changeToOrange);
