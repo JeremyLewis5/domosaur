@@ -40,7 +40,7 @@ button.addEventListener('click', makeDinoRowGreen);
 const dino3 = document.querySelector('#biggify');
 
 function hoverGrow() {
-    dino3.style.onMouseOver = '200px'
+    dino3.style.width = '200px';
 }
 
-dino3.addEventListener('onMouseOver', hoverGrow)
+dino3.addEventListener('mouseover', hoverGrow)
